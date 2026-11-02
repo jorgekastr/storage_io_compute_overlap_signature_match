@@ -1,11 +1,11 @@
-# featplat_jd483
+# storage_io_compute_overlap_signature_match
 
 **给特征平台工程师·存储 IO 与计算的重叠算一个特征指纹并定位可疑片段。**
 
-`featplat_jd483` —— 通过字符级与结构级特征识别特征平台工程师·存储 IO 与计算的重叠的痕迹，给出密度与命中位置
+`storage_io_compute_overlap_signature_match` —— 通过字符级与结构级特征识别特征平台工程师·存储 IO 与计算的重叠的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`featplat_jd483.py` 拷走就能用
+- 单文件，`storage_io_compute_overlap_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install jorgekastr-featplat_jd483
+pip install jorgekastr-storage_io_compute_overlap_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-featplat_jd483 --help
+storage_io_compute_overlap_signature_match --help
 ```
 
-也可以不用安装，直接把 `featplat_jd483.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `storage_io_compute_overlap_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ featplat_jd483 --help
 ## 用法
 
 ```bash
-python featplat_jd483.py --file input.txt
-python featplat_jd483.py --text "示例内容"
-python featplat_jd483.py --file input.txt --json
+python storage_io_compute_overlap_signature_match.py --file input.txt
+python storage_io_compute_overlap_signature_match.py --text "示例内容"
+python storage_io_compute_overlap_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python featplat_jd483.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_featplat_jd483.py
+python test_storage_io_compute_overlap_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_featplat_jd483.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/jorgekastr/featplat_jd483>
+- GitHub 仓库：<https://github.com/jorgekastr/storage_io_compute_overlap_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_featplat_jd483.py
 jorgekastr 做特征平台工程师·存储 IO 与计算的重叠相关的问题，方向对标OpenAI的初级特征平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://jorgekastr.github.io>
-- 仓库：<https://github.com/jorgekastr/featplat_jd483>
+- 仓库：<https://github.com/jorgekastr/storage_io_compute_overlap_signature_match>
 
 ## 许可
 
